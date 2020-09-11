@@ -25,11 +25,6 @@ class MyApplication {
             String loweredFilename = filename.toLowerCase();
 
             // TODO: I think we need to do something with a FileOutputStream?
-            FileOutputStream fos = new FileOutputStream(loweredFilename);
-
-            // TODO: write using buffer
-
-            fos.close();
         }
     }
 }
